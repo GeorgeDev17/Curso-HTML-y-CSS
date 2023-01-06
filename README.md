@@ -1,5 +1,5 @@
 # Curso profesional de HTML y CSS - Azul School
-El contenido en este repositorio esta basado en lo aprendido durante el cursado. (_En actualización actualmente..._).
+El contenido en este repositorio esta basado en lo aprendido durante el cursado. (_En actualización..._).
 ### Lenguajes usados en este repositorio:
 
 ![folder_html_icon_161292](https://user-images.githubusercontent.com/54302061/210740978-009305c9-a826-482c-aecf-021e73b6666b.png)
