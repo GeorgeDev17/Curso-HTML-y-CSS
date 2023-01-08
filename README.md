@@ -1,4 +1,4 @@
-# Curso profesional de HTML y CSS - Azul School
+# Curso profesional de HTM-CSS-JavaScript - Azul School
 El contenido en este repositorio esta basado en lo aprendido durante el cursado. (_En actualización..._).
 ### Lenguajes usados en este repositorio:
 
