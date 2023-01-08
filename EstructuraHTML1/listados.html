@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es"><!-- Lang codifica el idioma.-->
+  <head>
+    <meta charset="UTF-8" />
+    <title>Listas</title>
+  </head>
+  <body>
+    <!--Agregar una lista-->
+    <aside>
+      <h2>Listado de cursos</h2>
+      <ul> <!-- etiqueta de lista desordenada o no numerada-->
+        <!-- Etiqueta para definir elementos de la lista -->
+        <li>Curso de Python</li><!-- Primer elemento de la lista-->
+        <li>Curso de NodeJs</li><!--Segundo elemento de la lista-->
+        <li>Curso de C++</li>
+        <li>Curso de React</li>
+        <li>Curso de SQL</li>
+      </ul>
+    </aside>
+    <hr />
+    <!--Agregar listas alfabética-->
+    <aside>
+      <h2>Lecciones del curso Python</h2>
+      <ul>
+        <!-- ol Etiqueta  que define una lista ordenada. Puede ser numérica o alfabética-->
+        <ol type="A">
+          <li>Curso de Python</li>
+          <li>Curso de NodeJs</li>
+          <li>Curso de C++</li>
+          <li>Curso de React</li>
+          <li>Curso de SQL</li>
+        </ol>
+      </ul>
+    </aside>
+    <hr />
+    <!--Agregar lista numérica-->
+    <aside>
+      <h2>Lecciones del curso Python</h2>
+      <ul>
+        <ol type="1"><!-- Type Especifica el tipo de marcador que se utilizará en la lista -->
+          <li>Curso de Python</li>
+          <li>Curso de NodeJs</li>
+          <li>Curso de C++</li>
+          <li>Curso de React</li>
+          <li>Curso de SQL</li>
+        </ol>
+      </ul>
+    </aside>
+    <hr />
+    <!--Agregar lista numérica en orden descendente-->
+    <aside>
+      <h2>Lecciones del curso Python</h2>
+      <ul>
+        <ol type="1" reversed><!-- Reversed Especifica que el orden de la lista debe ser descendente (9,8,7...)-->
+          <li>Curso de Python</li><!--primer elemento de la lista-->
+          <li>Curso de NodeJs</li><!--segundo elemento de la lista-->
+          <li>Curso de C++</li>
+          <li>Curso de React</li>
+          <li>Curso de SQL</li>
+        </ol>
+      </ul>
+    </aside>
+    <hr />
+    <aside>
+      <!-- Etiqueta <dl> definición tomada de: documentación del W3C
+    https://www.w3.org/TR/html401/struct/lists.html#h-10.3
+    Una lista de definición es el elemento contenedor para los elementos DT y DD. 
+    El elemento DL) debe usarse cuando desee incorporar una definición de un término 
+    en su documento, a menudo se usa en glosarios para definir muchos términos, también 
+    se usa en documentos "normales" cuando el El autor desea explicar un término con más 
+    detalle (como esta definición).-->
+      <dl>
+        <!-- Etiqueta <dl>
+    El término que se define actualmente en la lista de definiciones. 
+    Este elemento contiene datos en línea.-->
+        <dt>Titulo</dt>
+        <!-- Etiqueta <dl>
+    El elemento de descripción de definición contiene datos que describen un término de definición. 
+    Estos datos pueden estar en línea o pueden estar a nivel de bloque.-->
+        <dd>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat
+          ducimus similique animi harum veniam accusamus accusantium magni! Nam
+          totam officia perferendis eaque maxime a, voluptates maiores fugit!
+          Pariatur, rem dolores.
+        </dd>
+        <dt>Titulo</dt>
+        <dd>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat
+          ducimus similique animi harum veniam accusamus accusantium magni! Nam
+          totam officia perferendis eaque maxime a, voluptates maiores fugit!
+          Pariatur, rem dolores.
+        </dd>
+      </dl>
+    </aside>
+    <hr />
+    <!--Agregar listas desplegables-->
+    <details>
+      <summary>Listas de cursos</summary>
+      <p>Curso de Python</p>
+      <p>Curso de NodeJs</p>
+      <p>Curso de C++</p>
+      <p>Curso de React</p>
+      <p>Curso de SQL</p>
+    </details>
+  </body>
+</html>
